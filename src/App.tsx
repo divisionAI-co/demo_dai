@@ -20,7 +20,7 @@ const steps = [
   { n: "04", t: "Ship", d: "Review, merge, and board updates when your process allows." },
 ];
 
-export function App() {
+export default function App() {
   return (
     <div className="relative overflow-hidden">
       <div
