@@ -1,3 +1,5 @@
+import viteLogo from "/vite.svg";
+
 const features = [
   {
     title: "Multi-agent routing",
@@ -34,8 +36,8 @@ export default function App() {
       <header className="relative border-b border-surface-border/80 bg-surface/80 backdrop-blur-md">
         <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
           <div className="flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/15 text-lg font-display font-semibold text-accent">
-              D
+            <span className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-lg bg-accent/15">
+              <img src={viteLogo} alt="" width={28} height={28} className="h-7 w-7" />
             </span>
             <span className="font-display text-lg font-semibold tracking-tight text-white">
               Division AI
