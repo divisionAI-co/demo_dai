@@ -14,4 +14,10 @@ describe("App", () => {
     expect(screen.getByText("Multi-agent routing")).toBeInTheDocument();
     expect(screen.getByText("Human-in-the-loop")).toBeInTheDocument();
   });
+
+  it("shows the footer with current year and 'Powered by DAI'", () => {
+    render(<App />);
+    const currentYear = new Date().getFullYear();
+    expect(screen.getByText(`${currentYear} Powered by DAI`)).toBeInTheDocument();
+  });
 });
