@@ -137,7 +137,7 @@ export default function App() {
       </main>
 
       <footer className="relative border-t border-surface-border py-8 text-center text-sm text-slate-500">
-        <p>Division AI — customer demo · Not connected to production data</p>
+        <p>Demo Orchestrator — customer demo · Not connected to production data</p>
       </footer>
     </div>
   );
