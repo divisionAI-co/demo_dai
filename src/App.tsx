@@ -16,7 +16,7 @@ const features = [
 ];
 
 const steps = [
-  { n: "01", t: "Intent", d: "Connect a ticket or describe the change you want." },
+  { n: "01", t: "Intent", d: "Add a ticket to your board" },
   { n: "02", t: "Plan", d: "Spec, architecture, and tasks are produced with traceability." },
   { n: "03", t: "Build", d: "Implementation and tests run in an isolated workspace." },
   { n: "04", t: "Ship", d: "Review, merge, and board updates when your process allows." },
